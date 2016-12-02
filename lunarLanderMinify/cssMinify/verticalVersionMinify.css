@@ -1,0 +1,20 @@
+body{margin:0;background-image:url(../img/space.png)}
+#cohete1{position:absolute;top:10%;width:100%;height:15%;text-align:center}
+#cohete1 img{height:100%}
+#moon{position:absolute;bottom:0;width:100%;height:10%;background-image:url(../img/moon.png);background-repeat:repeat}
+#panelver{position:absolute;width:300px;height:400px;background-color:#000;font-size:60px}
+#panelver ul{padding-left:10px;list-style:none;top:0;margin-top:10px;margin-left:10px;font-family:arial}
+#valor{color:red}
+#novalor{color:lime}
+#imgpanel{position:relative;width:400px;height:40px;top:25px;left:200px}
+#imgpanel img{width:100%;height:100%;position:absolute}
+#blast2{position:absolute;bottom:9.5%;width:100%;height:15%;text-align:center}
+#blast2 img{height:100%}
+#dropbtn{background-color:#000;border:none;height:50%;width:90%}
+#dropdown{position:absolute;display:inline-block;right:2%;height:15%;width:15%}
+#dropdown img{width:100%;height:100%}
+#dropdownContent{display:none;position:absolute;background-color:#fff}
+#dropdown:hover #dropdownContent{display:block}
+#panelhor{display:none}
+#play{display:none}
+#menu{display:none}

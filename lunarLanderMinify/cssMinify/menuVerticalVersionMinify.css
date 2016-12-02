@@ -1,0 +1,2 @@
+body{margin:0;background-color:#000}
+#instrucciones{position:absolute;top:10%;left:10%;right:10%;bottom:10%;overflow:auto;text-align:justify;color:#fff;background-color:#000;font-size:65px;border:10px;font-family:arial}
