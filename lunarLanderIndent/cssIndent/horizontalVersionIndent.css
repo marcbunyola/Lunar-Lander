@@ -1,0 +1,98 @@
+
+body{
+	margin: 0px;
+	background-image: url("../img/space.png");
+}
+#cohete1{
+ 	position: absolute;
+ 	top: 10%;
+ 	width: 100%;
+ 	height: 10%;
+ 	text-align: center;
+}
+#cohete1 img{
+	height: 100%;	
+}
+#moon{
+	position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 20%;
+    background-image: url("../img/moon.png");
+	background-repeat: repeat;
+}
+#panelhor{
+	position: absolute;
+	width: 250px;
+	height: 100px;
+	left:20px;
+	background-color: black;
+	color: #33cc33;
+	font-size: 20px;	
+}
+#panelhor ul{
+	padding-left: 10px;
+	list-style: none;
+	top:0;
+	font-family: arial
+}
+#imgpanel{
+	position: absolute;
+	width: 180px;
+	height: 13px;
+	top: 25px;
+	left: 90px;
+}
+#imgpanel img{
+	height: 100%;
+	position: absolute;
+}
+#play{
+ 	
+ 	position: absolute;
+ 	top: 0%;
+ 	width: 100%;
+ 	height: 10%;
+ 	text-align: right;
+}
+#play img{
+	height: 100%;
+	right: 50%;
+}
+#blast2{
+	position: absolute;
+ 	bottom: 19.5%;
+ 	width: 100%;
+ 	height: 15%;
+ 	text-align: center;
+}
+#blast2 img{
+	height: 100%;
+}
+#menu{
+	display: none;
+	position: absolute;
+	top: 25%;
+	bottom: 25%;
+	left: 25%;
+	right: 25%;
+	overflow: auto;
+	text-align: justify;
+	color: white;
+	background-color: black;
+	font-size: 20px;
+	border-color: #33cc33;
+	border-style: solid;
+}
+#menu p{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#panelver{
+	display: none;
+}
+#dropdown{
+	display: none;
+}
